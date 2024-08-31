@@ -1,0 +1,146 @@
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+    
+    .data-area h2 {
+        font-family: var(--heding-font);
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 50px;
+        margin: 30px 0 15px 0;
+        color: #fff;
+    
+    }
+    
+    .data-area p {
+        font-size: 12px;
+        font-family:var(--body-font);
+        font-weight: 400;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+    
+    
+      button {
+        width: 150px;
+        height: 50px;
+        border: 0;
+        border-radius: 5px;
+        padding: 15px 5px 9px;
+        background-color: #cf0000;
+        color: #fff;
+        
+     }
+    
+     .time-out span {
+        margin-right: 10px;
+        color: #fff;
+    }
+    
+    .time-tow small {
+        margin-right: 65px;
+        color: #fff;
+    }
+    .foods-item h2{
+        font-family: var(--heding-font);
+        font-size: 45px;
+        font-weight: 700;
+    }
+    
+    .btneo{
+        width: 140px;
+        margin-bottom: 15px;
+    }
+    
+    .banner .container {
+        padding: 120px 0 70px;
+    }
+    
+    .banner .container .banner-text-area {
+        
+        width: 300px;
+    
+       
+        
+    }
+    
+    .banner .container .banner-text-area h1 {
+        font-family: var(--heding-font);
+        font-size: 50px;
+        font-weight: 500;
+        color: #fff;
+        
+    }
+    .banner .banner-text-area h3 {
+        font-size: 26px;
+        background-color: red;
+        color: #fff;
+        display: inline-block;
+        padding: 10px 20px;
+    }
+    
+    .banner .banner-text-area strong {
+        font-size: 12px;
+        color: #cf0000;
+    }
+    
+    .banner .banner-text-area .restaurant .line {
+        width: 100px;
+        height: 3px;
+        background-color: red;
+    }
+    .food-menu {
+        ul {
+            li {
+                margin: 1px 4px;
+
+                a {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+ /* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    .food-menu {
+        width: 700px;
+        height: 30px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+        padding-top: 1px;
+        border:1px solid grey;
+        border-radius: 10px;
+        ul {
+            li {
+                margin: 0px 6px 0px 5px;
+                padding: 0 0;
+                border-radius: 5px;
+
+                a {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+ /* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .food-gllary {
+        .none-img {
+            display: none;
+        } 
+    }
+}
+
+ /* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { }
+
+ /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { }
